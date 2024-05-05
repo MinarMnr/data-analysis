@@ -1,0 +1,23 @@
+table.customDesign {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.table.customDesign th,
+.table.customDesign td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+}
+
+.table.customDesign th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.tabulator-col-title-holder {
+    text-align: center;
+}

@@ -1,0 +1,67 @@
+.header-bg {
+  background: linear-gradient(to left, #3a7bd5, #3a6073) !important;
+}
+
+.offer-area {
+  // position: relative;
+  // z-index: 1;
+  // // overflow: hidden;
+  // height: 93.9vh;
+  // background-size: contain;
+  // background-attachment: inherit;
+  // background-position: center;
+  // background-repeat-x: no-repeat;
+  // background-color: #3a78c9;
+  // color: white;
+  // overflow: overlay;
+  position: relative;
+  z-index: 1;
+  background-size: cover;
+  background-attachment: inherit;
+  background-position: center;
+  background-color: #3a78c9;
+  overflow: inherit;
+}
+
+body {
+  background-color: #f1fbfd;
+  // overflow: hidden;
+}
+.login_main_div {
+  height: 96.6vh;
+  overflow: hidden;
+}
+.registration_main_div{
+  // height: 125.5vh;
+  height: 93.3vh;
+}
+.offer-area .offer-shape img:nth-child(1) {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
+.registration_main_div.main2-registration {
+  height: auto;
+}
+.offer-area .offer-shape img {
+  position: absolute;
+  z-index: -1;
+
+}
+
+.offer-area .offer-shape img:nth-child(2) {
+  top: 0;
+  right: 0;
+}
+
+.offer-area .offer-shape img {
+  position: absolute;
+  z-index: -1;
+}
+
+.offer-shape {}
+@media (max-width: 767.98px) {
+  .registration_main_div{
+    // height: auto;
+  }
+}

@@ -1,0 +1,22 @@
+.rounded-image {
+  border-radius: 6px !important;
+  height: auto;
+  max-width: 100%;
+}
+.circle-image {
+  border-radius: 50% !important;
+  height: auto;
+  max-width: 100%;
+}
+.rounded-image-raised {
+  border-radius: 6px !important;
+  height: auto;
+  max-width: 100%;
+  box-shadow: 0 5px 15px -8px rgb(0 0 0 / 24%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+}
+.circle-image {
+  border-radius: 50% !important;
+  height: auto;
+  max-width: 100%;
+  box-shadow: 0 5px 15px -8px rgb(0 0 0 / 24%), 0 8px 10px -5px rgb(0 0 0 / 20%);
+}

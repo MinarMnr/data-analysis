@@ -1,0 +1,11 @@
+.spinner-border {
+  --bs-spinner-width: 8rem;
+  --bs-spinner-height: 8rem;
+  --bs-spinner-vertical-align: 68.875em;
+  --bs-spinner-border-width: 1rem;
+  --bs-spinner-animation-speed: 0.9s;
+  --bs-spinner-animation-name: spinner-border;
+  border: var(--bs-spinner-border-width) solid rgb(61, 61, 161);
+  border-right-color: transparent;
+//   background-color: aquamarine;
+}

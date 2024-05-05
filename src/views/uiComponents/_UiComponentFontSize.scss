@@ -1,0 +1,130 @@
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+// stylelint-disable value-keyword-case
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+$font-family-sans-serif: "Nunito Sans", sans-serif;
+$font-family-open-sans: "Open Sans", sans-serif;
+// stylelint-enable value-keyword-case
+$font-family-base: var(--bs-font-sans-serif);
+$font-family-code: var(--bs-font-monospace);
+// $font-size-root effects the value of `rem`, which is used for as well font sizes, paddings and margins
+// $font-size-base effects the font size of the body text
+$font-size-root: null;
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-xs: ($font-size-base * 0.75);
+$font-size-sm: ($font-size-base * 0.875);
+$font-size-md: ($font-size-base * 1);
+$font-size-lg: ($font-size-base * 1.25);
+$font-size-xl: ($font-size-base * 1.5);
+$font-size-xxl: ($font-size-base * 2);
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+$font-weight-bolder: 700;
+$font-weight-extreme: 800;
+$font-weight-base: $font-weight-normal;
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+// Display headings
+$display1-size: 5rem;
+$display2-size: 3.5rem;
+$display3-size: 2.5rem;
+$display4-size: 1.875rem;
+// Font Sizes
+.font-small {
+  font-weight: $font-weight-light;
+}
+
+.font-base {
+  font-weight: $font-weight-light;
+}
+
+.font-medium {
+  font-weight: $font-weight-light;
+}
+
+.text-normal {
+  font-weight: 400;
+}
+
+.text-medium,
+strong {
+  font-weight: 500;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-ultra-bold {
+  font-weight: 900;
+}
+
+// Headings
+.heading {
+  font-size: $h2-font-size;
+  font-weight: $font-weight-bold;
+}
+
+.display-2 {
+  font-size: $display4-size;
+}
+
+.display-3 {
+  font-size: $display4-size;
+}
+
+.display-4 {
+  font-size: $h4-font-size;
+}
+
+.heading-h1 {
+  font-size: 36px !important;
+}
+
+.heading-h2 {
+  font-size: 30px !important;
+}
+
+.heading-h3 {
+  font-size: 24px !important;
+}
+
+.heading-h4 {
+  font-size: 20px !important;
+}
+
+.heading-h5 {
+  font-size: 16px !important;
+}
+
+.heading-h6 {
+  font-size: 14px !important;
+}
+
+.text-yellow {
+  color: #ffff80 !important;
+}
+.text-green {
+  color: #00ff00 !important;
+}
+// line-height
+$line-height-base: 1.5;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+.line-height-base {
+  line-height: $line-height-base;
+}
+
+.line-height-sm {
+  line-height: $line-height-sm;
+}
+
+.line-height-sm {
+  line-height: $line-height-lg;
+}

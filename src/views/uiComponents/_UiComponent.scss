@@ -1,0 +1,41 @@
+.card-head {
+  border-radius: 2px 2px 0 0;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+  padding: 2px;
+  /* text-transform: uppercase; */
+  color: #3a405b;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 40px;
+  min-height: 40px;
+}
+.card-head header {
+  display: inline-block;
+  padding: 11px 20px;
+  vertical-align: middle;
+  line-height: 17px;
+  font-size: 20px;
+}
+.ui .border {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 6px;
+}
+.ui .radius span {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 6px;
+  background-color: #555;
+}
+.ui .position-absolute {
+  width: 2em;
+  height: 2em;
+  background-color: #212529;
+  border-radius: 0.25rem;
+}
+.position-relative {
+  height: 200px;
+  background-color: #f5f5f5;
+}

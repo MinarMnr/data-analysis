@@ -1,0 +1,47 @@
+.text-area-container {
+    position: relative;
+    margin: 100px;
+    /*max-width: 400px;*/
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.suggestions-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.suggestions-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.suggestions-container li {
+    padding: 8px;
+    cursor: pointer;
+    &:hover {
+        background-color: #f0f0f0;
+    }
+}

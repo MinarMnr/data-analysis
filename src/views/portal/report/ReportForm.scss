@@ -1,0 +1,228 @@
+.apply button,
+.apply button:hover {
+    color: #ffffff;
+    background-color: #01579b;
+    border-color: #01579b;
+}
+.shadowmodify {
+    box-shadow: 0 0.5rem 1rem rgba(46, 54, 80, 0.15) !important;
+    box-shadow: 0 1px 3px 0 rgba(2, 5, 19, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.38) !important;
+}
+.shadowmodify .header_label {
+    display: flex;
+    background: #3a71b1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.displayinlineblock {
+    display: inline-block;
+}
+.shorting .popover-header:hover {
+    background-color: aquamarine;
+    color: #fff;
+}
+.search_button {
+    padding: 30px;
+    border: 1px solid;
+    width: 50px;
+    border-radius: 23px;
+    text-align: center;
+    justify-content: center;
+    padding: 0 10px;
+    margin-top: 35px;
+}
+.pleacheholder_color::placeholder {
+    color: gray !important;
+    font-size: 24px;
+}
+.pleacheholder_color.form-control {
+    border: none;
+    color: gray;
+}
+.font_border {
+    border: 1px dotted gray;
+    text-align: center;
+    width: 100px;
+    display: inline;
+    padding: 15px;
+    margin: 0 20px;
+}
+
+.file_type_font {
+    justify-content: end;
+    display: flex;
+    margin-top: 22px;
+}
+.new-form {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 2;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.6rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    padding: 0.25rem 0.75rem;
+}
+
+.top-30 {
+    position: relative;
+    top: 28px;
+}
+
+@media (max-width: 992.98px) {
+    .top-30 {
+        position: inherit;
+        top: auto;
+    }
+}
+
+#headerAnim {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: glow 6s ease-in-out infinite alternate;
+    -moz-animation: glow 6s ease-in-out infinite alternate;
+    animation: glow 6s ease-in-out infinite alternate;
+}
+
+// @keyframes glow {
+//     from {
+//         color: #6610f2;
+//         text-shadow: 0 0 2px #6610f2;
+//         color: #3a7bd5;
+//         text-shadow: 0 0 1px #3a7bd5;
+//     }
+
+//     to {
+//         color: #28a745;
+//         text-shadow: 0 0 2px #28a745;
+//         color: rgb(189, 39, 181);
+//         text-shadow: 0 0 1px rgb(189, 39, 181);
+//     }
+// }
+
+@keyframes glow {
+    0% {
+        color: #6610f2;
+        left: -50px;
+        top: 0px;
+    }
+
+    50% {
+        color: #3a7bd5;
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        color: #28a745;
+        left: 50px;
+        top: 0px;
+    }
+}
+
+#designHeaderAnim {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    // -webkit-animation: glow 4s ease-in-out infinite alternate;
+    // -moz-animation: glow 4s ease-in-out infinite alternate;
+    // animation: glow 4s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        color: #28a745;
+        left: 30px;
+        top: 0px;
+    }
+
+    50% {
+        color: #3a7bd5;
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        color: #6610f2;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#previewHeaderAnim {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    // -webkit-animation: glow 8s ease-in-out infinite alternate;
+    // -moz-animation: glow 8s ease-in-out infinite alternate;
+    // animation: glow 8s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        color: #3a7bd5;
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        color: #6610f2;
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        color: #28a745;
+        left: 30px;
+        top: 0px;
+    }
+}
+
+.btn-updown {
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-updown:hover {
+    transform: scale(0.8);
+}
+
+.css-1bj9hst-MuiPaper-root-MuiAccordion-root {
+    background-color: rgb(226, 238, 238) !important;
+}
+
+.uldesign {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    height: 32px;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    white-space: nowrap;
+    -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    cursor: default;
+    outline: 0;
+    text-decoration: none;
+    border: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 3px;
+    max-width: calc(100% - 6px);
+}
